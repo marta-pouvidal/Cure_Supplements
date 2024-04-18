@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+    font-family: 'Spartan', sans-serif; 
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #D2B48C, #F5F5DC);
+    color: #333;
+    background-attachment: fixed; 
+}
+
+h1, h2, h3 {
+    font-family: 'Spartan', sans-serif; 
+    font-weight: 700; 
+    color: black; 
+}
+
+h1 {
+    font-size: 80px; 
+}
+
+h2 {
+    font-size: 50px; 
+}
+
+h3 {
+    font-size: 35px; 
+}
+
+a {
+    text-decoration: none;
+    color: #FF4500; 
+    font-weight: 700; 
+}
